@@ -1,4 +1,3 @@
-
 /**
  * @fileOverview Better Autocomplete is a flexible jQuery plugin which offers
  * rich text autocompletion, both from local and remote sources.
@@ -874,7 +873,7 @@ var defaultCallbacks = {
    *   The URL, ready for fetching.
    */
   constructURL: function(path, query) {
-    return path + (path.indexOf('?') > -1 ? '&' : '?') + 'q=' + encodeURIComponent(query);
+    return path + (path.indexOf('?') > -1 ? '&' : '?') + 'qi=' + encodeURIComponent(query);
   },
 
   /**
